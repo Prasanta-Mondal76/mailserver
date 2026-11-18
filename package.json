@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "nodemailer": "^10.0.0"
+  },
+  "description": "Reusable mail sending service — send mail from any project over HTTPS, using your own Gmail SMTP",
+  "name": "mail-service",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0"
+}
