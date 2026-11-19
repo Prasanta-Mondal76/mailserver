@@ -56,8 +56,8 @@ export default async function handler(req, res) {
   // to function lambe time tak hang na kare, jaldi clear error de.
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
-    port: 587,
-    secure: false, // Port 587 = STARTTLS
+    port: 465,
+    secure: true, // Port 587 = STARTTLS
     auth: {
       user: process.env.MAIL_USER,
       pass: process.env.MAIL_APP_PASSWORD, // Gmail App Password (16 characters)
